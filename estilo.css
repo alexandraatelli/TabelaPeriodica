@@ -1,0 +1,145 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+     color: black;
+}
+
+h1 {
+    text-align: center;
+    height: 20px;
+    color: blue;
+}
+
+h2 {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: blue;
+}
+
+h2.maisInfo {
+    text-align: center;
+}
+
+table#tablePeriodica1 {
+    margin: 35px auto;
+}
+
+table#tablePeriodica2 {
+    margin-left: 280px;
+}
+
+table#MaisInformacoes {
+    margin: auto;
+    border: 1px solid burlywood;
+}
+
+table#MaisInformacoes tr.bege {
+    background-color: burlywood;
+}
+
+table#MaisInformacoes tr.begeClaro {
+    background-color: rgb(248, 220, 184);
+}
+
+caption {
+    padding: 10px;
+    font-size: 3em;
+}
+
+table#MaisInformacoes td:hover {
+    background: none;
+    transform: scale(1.0);
+}
+
+table#legenda {
+    text-align: center;
+    margin: 15px left;
+    margin-left: 40px;
+    font-size: 1.0em;
+    width: 450px;
+}
+
+td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 0.5rem;
+}
+
+td:hover {
+    background-color: #46e8e5;
+    transition: .2s;
+    transform: scale(1.5);
+}
+
+table td.normal:hover {
+    background: none;
+    transform: scale(1.0);
+}
+
+.NaoMetais {
+    background-color: #94cd32;
+}
+
+.MetaisAlcalinos {
+    background-color: #f0822d;
+}
+
+.SemiMetais {
+    background-color: rgb(194, 72, 194);
+}
+
+.OutrosMetais {
+    background-color: #e8d821;
+}
+
+.Lantanideos {
+    background-color: #c0c0c0;
+}
+
+.GasesNobres {
+    background-color: #1cace5;
+}
+
+.MetaisAlcalinosTerrosos {
+    background-color: #8fbc8f;
+}
+
+.Halogenios {
+    background-color: #a89736;
+}
+
+.MetaisdeTransicao {
+    background-color: #db7093;
+}
+
+.Acnideos {
+    background-color: #00fa9a;
+}
+
+.numero {
+    align-self: flex-start;
+    width: 70px;
+    height: 15px;
+    top: 0;
+    left: 0;
+}
+
+.simbolo {
+    text-align: center;
+    font-size: 25px;
+}
+
+.nome {
+    text-align: center;
+    font-size: 14px;
+}
+
+.peso {
+    text-align: center;
+}
