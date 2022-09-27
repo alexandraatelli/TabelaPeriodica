@@ -1,2 +1,2 @@
 # Web.TabelaPeriodica
-Tabela Periódica
+Tabela Periódica - HTML5, CSS, JavaScript, Bootstrap.
